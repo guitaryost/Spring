@@ -10,7 +10,7 @@ import jp.co.kenshu.form.TestForm;
 
 //SpringにこのクラスはControllerだということを教える
 @Controller
-public class TestController {
+public class SampleController {
 	//valueに記述した文字列でControllerのURLを教える。method = .GETはクライアントがGETしたケースを表す
 	@RequestMapping(value = "/show", method = RequestMethod.GET)
 
